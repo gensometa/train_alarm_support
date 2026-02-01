@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="乗換アラーム - サポートページ。お問い合わせ、よくある質問、使い方ガイド">
+  <title>乗換アラーム - サポート</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f7;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 40px 30px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #667eea;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+
+    .contact-box {
+      background: #f9f9fb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .contact-box p {
+      margin-bottom: 10px;
+    }
+
+    .contact-box a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    .faq-item {
+      margin-bottom: 25px;
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .faq-answer {
+      color: #666;
+      line-height: 1.7;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .feature-list li {
+      padding: 10px 0;
+      padding-left: 30px;
+      position: relative;
+    }
+
+    .feature-list li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #667eea;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #f9f9fb;
+      padding: 20px 30px;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .note {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+
+    .note p {
+      margin: 0;
+      color: #856404;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .content {
+        padding: 30px 20px;
+      }
+
+      header {
+        padding: 30px 20px;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚃 乗換アラーム</h1>
+      <p>サポートページ</p>
+    </header>
+
+    <div class="content">
+      <!-- お問い合わせ -->
+      <section id="contact">
+        <h2>📧 お問い合わせ</h2>
+        <div class="contact-box">
+          <p>アプリに関するご質問、バグ報告、機能のご要望は以下までお気軽にお問い合わせください。</p>
+          <p><strong>メール:</strong> <a href="mailto:support@example.com">support@example.com</a></p>
+        </div>
+        <div class="note">
+          <p>📝 お問い合わせの際は、ご利用の端末（iPhone XS、iOS 17.0など）とアプリのバージョンをお知らせいただけるとスムーズです。</p>
+        </div>
+      </section>
+
+      <!-- アプリについて -->
+      <section id="about">
+        <h2>📱 アプリについて</h2>
+        <p>「乗換アラーム」は、電車での乗り過ごしを防ぐためのGPSアラームアプリです。</p>
+        <ul class="feature-list">
+          <li>目的地の駅に近づくと自動で通知</li>
+          <li>GPS位置情報による正確な検知</li>
+          <li>地下鉄対応のタイマーモード</li>
+          <li>乗換案内アプリからの経路インポート</li>
+          <li>繰り返し通知で確実にお知らせ</li>
+        </ul>
+      </section>
+
+      <!-- よくある質問 -->
+      <section id="faq">
+        <h2>❓ よくある質問</h2>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 通知が届かない / 位置情報が正確でない</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> 以下を確認してください：</p>
+            <ul>
+              <li>設定 → プライバシーとセキュリティ → 位置情報サービス で「常に許可」に設定</li>
+              <li>設定 → 通知 → 乗換アラーム で通知が「許可」になっているか確認</li>
+              <li>バックグラウンドでの位置情報取得が許可されているか確認</li>
+              <li>低電力モードを無効にする（位置情報の精度が下がる場合があります）</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 地下鉄でも使えますか？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> はい、使えます。地下鉄は「タイマーモード」を使用することで、到着予定時刻の数分前に通知を送信します。乗換案内アプリから経路をインポートすると、地下鉄を自動検出してタイマーモードに設定されます。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. バッテリー消費は大きいですか？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> GPS位置情報を使用するため、通常のアプリよりはバッテリーを消費します。ただし、効率的な位置情報取得を行うことで消費を最小限に抑えています。通知範囲を適切に設定することで、さらに消費を抑えられます。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 無料版と有料版の違いは？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> プレミアム版では以下の機能が利用できます：</p>
+            <ul>
+              <li>広告非表示</li>
+              <li>無制限の目的地登録（無料版は2件まで）</li>
+              <li>起動時の目的地自動監視</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 乗換案内アプリとの連携方法は？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> 以下の手順でインポートできます：</p>
+            <ol>
+              <li>Yahoo!乗換案内やジョルダンで経路を検索</li>
+              <li>経路詳細画面のテキストをコピー</li>
+              <li>アプリの「インポート」タブでペースト</li>
+              <li>自動的に乗換駅が登録されます</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 位置情報のプライバシーは大丈夫ですか？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> 位置情報はすべてデバイス内で処理され、外部サーバーには一切送信されません。安心してご利用ください。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Q. 電車が遅延した場合でも通知されますか？</div>
+          <div class="faq-answer">
+            <p><strong>A.</strong> はい。GPSモードでは位置情報で判定するため、電車の遅延に関係なく駅に近づいたときに通知します。タイマーモードの場合は設定時刻で通知されるため、大幅な遅延には対応できません。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 使い方ガイド -->
+      <section id="guide">
+        <h2>📖 基本的な使い方</h2>
+        <div class="faq-item">
+          <div class="faq-question">1. 目的地を登録</div>
+          <div class="faq-answer">
+            「目的地」タブから駅名や住所を入力して登録します。または「インポート」タブで乗換案内アプリからコピー＆ペーストで一括登録できます。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">2. 通知モードを選択</div>
+          <div class="faq-answer">
+            GPSモード（位置情報）またはタイマーモード（時刻）を選択します。地下鉄や地下区間が多い路線ではタイマーモードをおすすめします。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">3. 監視を開始</div>
+          <div class="faq-answer">
+            目的地の監視をONにして、電車に乗るだけ。駅に近づくと自動的にアラームが鳴ります。
+          </div>
+        </div>
+      </section>
+
+      <!-- バージョン情報 -->
+      <section id="version">
+        <h2>🔄 最新バージョン</h2>
+        <p><strong>v1.0.4</strong></p>
+        <ul class="feature-list">
+          <li>ダークモード完全対応</li>
+          <li>GPS精度の向上</li>
+          <li>通知範囲の選択肢を拡大（1km〜3km）</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 乗換アラーム. All rights reserved.</p>
+      <p style="margin-top: 10px;">
+        <a href="privacy.html" style="color: #667eea; text-decoration: none;">プライバシーポリシー</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
